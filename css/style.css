@@ -1,0 +1,28 @@
+
+nav ul li
+{
+   display: inline;
+}
+aside r1
+{
+	background: green;
+}
+.hdr
+{
+	position: fixed;
+	
+}
+.main
+{
+	padding-top: 70px;
+}
+.vertical
+{
+	background: red;
+}
+.foot ul li
+{
+	text-align: center;
+	margin: auto;
+	line-height: 1em;
+}
