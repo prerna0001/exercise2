@@ -1,28 +1,146 @@
+.hdr h1                                      /*header*/        
+{
+	font-size: 44px;
+	font-family: 'Great Vibes', cursive;
+	letter-spacing: 0.3em;
+	text-shadow: 3px 3px 3px blue;
 
-nav ul li
-{
-   display: inline;
 }
-aside r1
+
+.hdr img
 {
-	background: green;
+	height: 90px;
+	width: 90px;
+	float: left;
 }
+
 .hdr
 {
 	position: fixed;
-	
+	background-color: lightgrey;
+	width: 60%;
 }
-.main
+
+
+.right                                     /*navigation*/
 {
-	padding-top: 70px;
+	margin-right: : 0;
 }
-.vertical
+
+.right ul li
 {
-	background: red;
+   display: inline;
+   margin-left: 5px;
+
 }
-.foot ul li
+
+.right a
 {
-	text-align: center;
-	margin: auto;
-	line-height: 1em;
+	text-decoration: none;
+}
+
+.right a:hover
+{
+	color: black;
+	font-weight: bold;
+}
+
+
+.main                                        /*main comtainer*/
+{
+	padding-top: 100px;
+}
+
+
+.herounit img								/*hero unit*/
+{
+	height: 350px;
+	width: 930px;
+	margin-left: 5px;
+}
+
+.herounit p
+{
+	margin-top: 10px;
+	background-color: #b3f0ff;
+	font-family: sans-serif;
+}
+
+
+.vertical									/*vertical column*/
+{
+	margin-top: 30px;
+	background-color: #ffccff;
+}
+
+.vertical ul li
+{ 
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+
+.rcol										/*right vertical column*/
+{
+	background-color: #ffccff;
+	margin-top: 30px;
+}
+
+.r1 img
+{
+
+	margin-left: 55px;
+	height: 150px;
+	width: 350px;
+}
+ .r1 p
+ {
+ 	margin-left: 8px;
+ }
+
+.r2 img
+{
+	margin-left: 55px;
+	height: 150px;
+	width: 350px;
+}
+.r2 p
+ {
+ 	margin-left: 8px;
+ }
+
+.r3 img
+{
+	margin-left: 55px;
+	height: 150px;
+	width: 350px;
+}
+.r3 p
+ {
+ 	margin-left: 8px;
+ }
+
+
+.foot										/*footer*/
+{
+	margin-top: 20px;
+	text-align:center;
+	line-height: 2em;
+}
+
+.foot a
+{
+	text-decoration: none;
+}
+
+.foot a:hover
+{
+	color: white;
+	font-weight: bold;
+}
+
+.f
+{
+	margin-top: 20px;
+	background-color: black;
 }
