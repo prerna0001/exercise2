@@ -18,15 +18,14 @@
 {
 	position: fixed;
 	background-color: lightgrey;
-	width: 60%;
+	width: 100%;
 }
 
 
 .right                                     /*navigation*/
 {
-	margin-right: : 0;
+	float:right;
 }
-
 .right ul li
 {
    display: inline;
@@ -71,7 +70,13 @@
 {
 	margin-top: 30px;
 	background-color: #ffccff;
+	height: 645px;
 }
+ 
+.vertical p
+{
+	padding: 10px 0 8px 0;
+} 
 
 .vertical ul li
 { 
@@ -123,9 +128,9 @@
 
 .foot										/*footer*/
 {
-	margin-top: 20px;
+	
 	text-align:center;
-	line-height: 2em;
+	width:30px;
 }
 
 .foot a
@@ -142,5 +147,10 @@
 .f
 {
 	margin-top: 20px;
-	background-color: black;
+	background-color: grey;
+}
+
+footer .med ul 
+{
+	display: inline;
 }
