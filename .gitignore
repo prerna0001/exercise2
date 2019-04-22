@@ -57,7 +57,19 @@ local.properties
 # Visual Studio Code
 ######################
 .vscode/
-
+404.html
+browserconfig.xml
+favicon.ico
+humans.txt
+icon.png
+LICENSE.txt
+robots.txt
+site.webmanifest
+tile.png
+tile-wide.png
+.editorconfig
+.gitattributes
+.htaccess
 ######################
 # Maven
 ######################
