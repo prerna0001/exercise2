@@ -26,10 +26,11 @@
 {
 	float:right;
 }
+
 .right ul li
 {
    display: inline;
-   margin-left: 5px;
+   margin-left: 10px;
 
 }
 
@@ -58,6 +59,12 @@
 	margin-left: 5px;
 }
 
+.herounit h4
+{
+	font-family: monospace;
+	margin-left: 5px;
+}
+
 .herounit p
 {
 	margin-top: 10px;
@@ -72,6 +79,11 @@
 	background-color: #ffccff;
 	height: 645px;
 }
+
+.vertical h4
+{
+	font-family: monospace;
+}
  
 .vertical p
 {
@@ -80,8 +92,8 @@
 
 .vertical ul li
 { 
-  list-style-type: square;
-  margin-left: 20px;
+    list-style-type: square;
+    margin-left: 20px;
 }
 
 
@@ -153,5 +165,6 @@
 .s
 {
 	display: inline;
-	padding: 0 5px;
+	padding: 0 10px;
+	font-size: 50px;
 }
